@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Izukazz Zone shares Filipino recipes, ingredients, cooking instructions, and kitchen tips.">
+
+    <title>Izukazz Zone | Filipino Recipes</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;600;700&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header class="site-header">
+
+        <a class="brand" href="index.html">Izukazz Zone</a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="home.html">All Recipes</a></li>
+
+                <li class="dropdown">
+                    <input type="checkbox" id="menu-toggle" class="toggle">
+                    <label for="menu-toggle" class="drop-btn">Recipes ▾</label>
+
+                    <ul class="drop-menu">
+                        <li><a href="adobo.html">🍖 Chicken Adobo</a></li>
+                        <li><a href="sinigang.html">🍲 Sinigang</a></li>
+                        <li><a href="friedchicken.html">🍗 Fried Chicken</a></li>
+                        <li><a href="sisig.html">🥩 Pork Sisig</a></li>
+                        <li><a href="menudo.html">🍅 Pork Menudo</a></li>
+                        <li><a href="lumpia.html">🥢 Lumpiang Shanghai</a></li>
+                        <li><a href="caldereta.html">🍲 Beef Caldereta</a></li>
+                        <li><a href="pancit.html">🍜 Pancit Canton</a></li>
+                        <li><a href="bicol-express.html">🌶️ Bicol Express</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+
+            <div class="in">
+
+                <h1>Izukazz Zone</h1>
+
+                <p>
+                    Discover delicious Filipino recipes, learn how to prepare
+                    them, and enjoy simple homemade meals with your family.
+                </p>
+
+                <a class="btn" href="home.html">Explore Recipes</a>
+                <a class="btn alt" href="adobo.html">Start Cooking</a>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="wrap" id="about">
+
+            <h2>Welcome to Our Kitchen!</h2>
+
+            <p class="lead">
+                Izukazz Zone is a simple recipe website featuring delicious
+                Filipino favorites. Whether you are a beginner or someone
+                who enjoys cooking, you can find recipes and instructions here.
+                Our goal is to share Filipino food and make cooking easier
+                for everyone.
+            </p>
+
+        </section>
+
+        <!-- RECIPE GALLERY / MULTIMEDIA -->
+        <section class="wrap">
+
+            <h2>Featured Filipino Dishes</h2>
+
+            <p class="lead">
+                Take a look at some of the dishes featured on our website.
+            </p>
+
+            <div class="media-gallery">
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700"
+                        alt="A prepared meal served in a bowl"
+                        loading="lazy">
+                    <figcaption>Homemade Filipino meals</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=700"
+                        alt="A cooked chicken dish"
+                        loading="lazy">
+                    <figcaption>Delicious chicken dishes</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700"
+                        alt="A bowl of freshly prepared food"
+                        loading="lazy">
+                    <figcaption>Fresh and satisfying food</figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+        <!-- RECIPE LIST -->
+        <section class="wrap" id="recipes">
+
+            <h2>Today's Menu</h2>
+
+            <p class="lead">
+                Choose a recipe and follow the step-by-step instructions.
+            </p>
+
+            <ul class="board">
+
+                <li>
+                    <a href="adobo.html">
+                        <span class="e">🍖</span>
+                        <div>
+                            <h3>Chicken Adobo</h3>
+                            <p>Soy sauce, vinegar, and garlic.</p>
+                        </div>
+                        <span class="t">50 min</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sinigang.html">
+                        <span class="e">🍲</span>
+                        <div>
+                            <h3>Sinigang na Baboy</h3>
+                            <p>Sour tamarind broth with pork and vegetables.</p>
+                        </div>
+                        <span class="t">1 hr 10 min</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="friedchicken.html">
+                        <span class="e">🍗</span>
+                        <div>
+                            <h3>Crispy Fried Chicken</h3>
+                            <p>Juicy chicken with a crispy coating.</p>
+                        </div>
+                        <span class="t">1 hr 30 min</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sisig.html">
+                        <span class="e">🥩</span>
+                        <div>
+                            <h3>Pork Sisig</h3>
+                            <p>Chopped pork with onion and calamansi.</p>
+                        </div>
+                        <span class="t">1 hr</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="menudo.html">
+                        <span class="e">🍅</span>
+                        <div>
+                            <h3>Pork Menudo</h3>
+                            <p>Pork cooked in tomato sauce with vegetables.</p>
+                        </div>
+                        <span class="t">1 hr</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="lumpia.html">
+                        <span class="e">🥢</span>
+                        <div>
+                            <h3>Lumpiang Shanghai</h3>
+                            <p>Crispy spring rolls with savory pork filling.</p>
+                        </div>
+                        <span class="t">45 min</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="caldereta.html">
+                        <span class="e">🍲</span>
+                        <div>
+                            <h3>Beef Caldereta</h3>
+                            <p>Tender beef cooked in a rich tomato sauce.</p>
+                        </div>
+                        <span class="t">2 hrs</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pancit.html">
+                        <span class="e">🍜</span>
+                        <div>
+                            <h3>Pancit Canton</h3>
+                            <p>Stir-fried noodles with meat and vegetables.</p>
+                        </div>
+                        <span class="t">35 min</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="bicol-express.html">
+                        <span class="e">🌶️</span>
+                        <div>
+                            <h3>Bicol Express</h3>
+                            <p>Spicy pork cooked in creamy coconut milk.</p>
+                        </div>
+                        <span class="t">55 min</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <p>
+                <a class="btn" href="home.html">View All Recipe Pages</a>
+            </p>
+
+        </section>
+
+        <!-- HTML TABLE -->
+        <section class="wrap">
+
+            <h2>Recipe Information</h2>
+
+            <p class="lead">
+                Compare the preparation time, serving size, and difficulty
+                of our featured recipes.
+            </p>
+
+            <div class="table-container">
+
+                <table class="recipe-table">
+
+                    <caption>Overview of Filipino Recipes</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Recipe</th>
+                            <th scope="col">Total Time</th>
+                            <th scope="col">Servings</th>
+                            <th scope="col">Difficulty</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Chicken Adobo</td>
+                            <td>50 minutes</td>
+                            <td>4</td>
+                            <td>Easy</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sinigang na Baboy</td>
+                            <td>1 hour 10 minutes</td>
+                            <td>5</td>
+                            <td>Easy</td>
+                        </tr>
+
+                        <tr>
+                            <td>Crispy Fried Chicken</td>
+                            <td>1 hour 30 minutes</td>
+                            <td>4</td>
+                            <td>Medium</td>
+                        </tr>
+
+                        <tr>
+                            <td>Pork Sisig</td>
+                            <td>1 hour</td>
+                            <td>4</td>
+                            <td>Intermediate</td>
+                        </tr>
+
+                        <tr>
+                            <td>Pork Menudo</td>
+                            <td>1 hour</td>
+                            <td>4–5</td>
+                            <td>Easy</td>
+                        </tr>
+
+                        <tr>
+                            <td>Lumpiang Shanghai</td>
+                            <td>45 minutes</td>
+                            <td>4–5</td>
+                            <td>Easy</td>
+                        </tr>
+
+                        <tr>
+                            <td>Beef Caldereta</td>
+                            <td>2 hours</td>
+                            <td>4–5</td>
+                            <td>Intermediate</td>
+                        </tr>
+
+                        <tr>
+                            <td>Pancit Canton</td>
+                            <td>35 minutes</td>
+                            <td>4–5</td>
+                            <td>Easy</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bicol Express</td>
+                            <td>55 minutes</td>
+                            <td>4–5</td>
+                            <td>Intermediate</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- FEEDBACK FORM -->
+        <section class="wrap" id="feedback">
+
+            <h2>Give Us Your Feedback</h2>
+
+            <p class="lead">
+                Tell us what you think about our recipes and website.
+                Your feedback can help us improve.
+            </p>
+
+            <form class="feedback-form" action="#" method="get">
+
+                <div class="form-group">
+
+                    <label for="visitor-name">Your Name:</label>
+
+                    <input
+                        type="text"
+                        id="visitor-name"
+                        name="visitor-name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="visitor-email">Email Address:</label>
+
+                    <input
+                        type="email"
+                        id="visitor-email"
+                        name="visitor-email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="favorite-recipe">Favorite Recipe:</label>
+
+                    <select id="favorite-recipe" name="favorite-recipe" required>
+
+                        <option value="">Select a recipe</option>
+                        <option value="adobo">Chicken Adobo</option>
+                        <option value="sinigang">Sinigang na Baboy</option>
+                        <option value="fried-chicken">Crispy Fried Chicken</option>
+                        <option value="sisig">Pork Sisig</option>
+                        <option value="menudo">Pork Menudo</option>
+                        <option value="lumpia">Lumpiang Shanghai</option>
+                        <option value="caldereta">Beef Caldereta</option>
+                        <option value="pancit">Pancit Canton</option>
+                        <option value="bicol-express">Bicol Express</option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="rating">Website Rating:</label>
+
+                    <select id="rating" name="rating" required>
+
+                        <option value="">Choose your rating</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Needs Improvement</option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="comments">Your Comments:</label>
+
+                    <textarea
+                        id="comments"
+                        name="comments"
+                        rows="5"
+                        placeholder="Write your feedback here..."
+                        required></textarea>
+
+                </div>
+
+                <button type="submit" class="btn">Submit Feedback</button>
+
+            </form>
+
+            <p class="hint">
+                Note: This is a demonstration form. It does not store or
+                send feedback because this website does not have a
+                server-side form handler.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>&copy; 2026 Izukazz Zone. Rice on the side, always.</p>
+
+        <p>Made with love for Filipino food.</p>
+
+        <p><a href="#top">Back to Top</a></p>
+
+    </footer>
+
+</body>
+</html>
